@@ -4,6 +4,8 @@ import Home from "./Components/Home";
 import About from "./Components/About"
 import Admin from "./Components/Admin"
 import Login from "./Components/Login"
+import PrivateRoute from "./Components/PrivateRoute"
+import {fakeAuth} from "./Components/Login"
 import Books from "./Books"
 import './App.css';
 

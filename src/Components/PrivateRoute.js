@@ -1,5 +1,6 @@
 import {Route , Redirect} from "react-router-dom";
-
+import {fakeAuth} from "./Login"
+import React from "react"
 const PrivateRoute = ({component : Component , ...rest}) => {
     return(
         <Route {...rest} render = { (props) => {
@@ -18,3 +19,4 @@ const PrivateRoute = ({component : Component , ...rest}) => {
         />
     )
 }
+export default PrivateRoute;
