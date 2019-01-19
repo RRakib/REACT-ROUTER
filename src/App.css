@@ -1,0 +1,46 @@
+body{
+    background: #fff27b;
+    overflow: hidden;
+}
+.App ul{
+    list-style-type: none;
+    background: gray;
+    width: 15%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.App li{
+    background: #333;
+    margin: 1px 0;
+    padding: 10px;
+}
+.App a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.App footer{
+    position: absolute;
+    bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+}
+
+.App .home h1{
+    background: #e1e1e1;
+    padding: 50px 10px;
+    border-radius: 10px;
+    font-size: 40px;
+    margin: 5px 0;
+}
+.App .home a{
+    color: orangered;
+}
+
+@media screen and (max-width: 560px){
+    .App ul{
+        width: 60%;
+    }
+}
